@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: #3e2a1c;
+}
+
+header,
+footer {
+    padding: 1rem 7vw;
+    background: #4a2c17;
+    color: white;
+}
+
+.hero {
+    min-height: 65vh;
+    padding: 8rem 7vw;
+    background: #f3e7d6;
+}
+
+.hero h1 {
+    max-width: 750px;
+    font-size: clamp(2.2rem, 6vw, 4.8rem);
+    margin: .3rem 0;
+}
+
+.tag {
+    color: #2f6b3a;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 1.2rem;
+    color: white;
+    background: #2f6b3a;
+    border-radius: .6rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #24542e;
+}
+
+#beneficios {
+    padding: 3rem 7vw;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+}
+
+.cards article {
+    padding: 2rem;
+    background: #fffaf3;
+    border: 1px solid #d9c3a5;
+    border-radius: 1rem;
+}
